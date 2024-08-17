@@ -1,0 +1,49 @@
+body {
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+p {
+    font-size: 24px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 1439px) and (min-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
